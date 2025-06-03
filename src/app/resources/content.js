@@ -1,8 +1,8 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Su",
+  lastName: "Aye",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Su, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -90,7 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Su is a Jakarta-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
